@@ -91,7 +91,7 @@
         app:layout_constraintVertical_bias="0.796" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btnRegister"
         style="?android:attr/borderlessButtonStyle"
         android:layout_width="135dp"
         android:layout_height="30dp"
@@ -111,7 +111,7 @@
         android:textColor="@android:color/white"
         android:textSize="12sp"
         app:layout_constraintBaseline_toBaselineOf="@+id/btnForgotPassword"
-        app:layout_constraintEnd_toStartOf="@+id/button3"
+        app:layout_constraintEnd_toStartOf="@+id/btnRegister"
         app:layout_constraintHorizontal_bias="0.533"
         app:layout_constraintStart_toEndOf="@+id/btnForgotPassword" />
 

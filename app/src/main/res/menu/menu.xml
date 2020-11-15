@@ -1,37 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
+
     <group android:checkableBehavior="single">
         <item
-            android:title="Home"
-            android:id="@+id/Home"
+            android:title="@string/home"
+            android:id="@+id/home"
             android:icon="@drawable/ic_action_home"
             />
         <item
-            android:title="Category"
-            android:id="@+id/Category"
+            android:title="@string/category"
+            android:id="@+id/category"
             android:icon="@drawable/ic_action_category"
             />
         <item
-            android:title="Product"
-            android:id="@+id/Product"
+            android:title="@string/product"
+            android:id="@+id/product"
             android:icon="@drawable/ic_action_product"
             />
         <item
-            android:title="Order"
-            android:id="@+id/Order"
+            android:title="@string/order"
+            android:id="@+id/order"
             android:icon="@drawable/ic_action_order"
             />
         <item
-            android:title="Order Tracking"
-            android:id="@+id/OrderTracking"
+            android:title="@string/order_tracking"
+            android:id="@+id/orderTracking"
             android:icon="@drawable/ic_action_order_tracking"
             />
 
         <item android:title="">
             <menu>
                 <item
-                    android:title="List OS"
-                    android:id="@+id/ListOS"
+                    android:title="@string/list_os"
+                    android:id="@+id/list_os"
                     android:icon="@drawable/ic_action_list"
                     />
             </menu>
@@ -39,18 +40,18 @@
         <item android:title="">
             <menu>
                 <item
-                    android:title="Help"
-                    android:id="@+id/Help"
+                    android:title="@string/help"
+                    android:id="@+id/help"
                     android:icon="@drawable/ic_action_help"
                     />
                 <item
-                    android:title="Profile"
-                    android:id="@+id/Profile"
+                    android:title="@string/profile"
+                    android:id="@+id/profile"
                     android:icon="@drawable/ic_action_profile"
                     />
                 <item
-                    android:title="Log Out"
-                    android:id="@+id/LogOut"
+                    android:title="@string/log_out"
+                    android:id="@+id/logout"
                     android:icon="@drawable/ic_action_logout"
                     />
             </menu>
